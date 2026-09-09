@@ -1,26 +1,34 @@
 # 🐍 Python Journey
 
-My journey of learning and practicing Python from the basics.
+Welcome to my Python learning journey! 🚀
+
+This repository contains my notes, practice questions, and programs as I learn Python from the basics.
 
 ## 📚 Topics
 
-- [x] Basics
-- [ ] If-Else
+- [x] Python Basics
+- [x] If-Else
 - [ ] Loops
+- [ ] Strings
 - [ ] Lists
 - [ ] Tuples
 - [ ] Sets
 - [ ] Dictionaries
-- [ ] Strings
 - [ ] Functions
+- [ ] File Handling
 - [ ] Object-Oriented Programming
 
-## 🎯 Goals
+## 📂 Repository Structure
 
-- Build strong Python fundamentals
-- Improve problem-solving skills
-- Build useful projects
-
-## 📅 Started
-
-September 2026
+```text
+python-journey/
+│
+├── 01_Basics/
+│   ├── theory.md
+│   └── practice.py
+│
+├── 02_If_Else/
+│   ├── theory.md
+│   └── practice.py
+│
+└── README.md
