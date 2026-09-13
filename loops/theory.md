@@ -130,3 +130,34 @@ Python uses indentation (spaces at the beginning of a line) to show which code b
 condition.'''
 
 
+
+
+
+
+
+# ========================================================
+
+'''Remember this simple rule
+
+When counting things:
+count = 0
+
+Then:
+
+count += 1
+
+When adding numbers:
+total = 0
+
+Then:
+
+total += number
+
+
+When multiplying numbers:
+total = 1
+
+Then:
+
+total *= number'''
+
