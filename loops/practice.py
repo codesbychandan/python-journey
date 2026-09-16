@@ -68,3 +68,14 @@ for i in range (1, n+1):
         odd_count += 1
 print("even nums :",even_count)
 print("odd nums ", odd_count)
+
+
+
+
+        ## BASIC QUES ON WHILE LOOPS##
+
+    #   Print numbers 1 to 10 using while
+i = 1 
+while i <=10:
+    print(i)
+    i += 1
