@@ -72,6 +72,7 @@ print("odd nums ", odd_count)
 
 
 
+
         ## BASIC QUES ON WHILE LOOPS##
 
     #   Print numbers 1 to 10 using while
@@ -79,3 +80,33 @@ i = 1
 while i <=10:
     print(i)
     i += 1
+
+   # Print even numbers from 1 to 20 using while
+i = 1
+
+while i <= 20:
+    if i % 2 == 0:
+        print(i)
+    
+    i += 1
+    
+'''i += 1
+
+is outside the if block but still inside the while loop.
+
+This means i increases every time.'''
+#  better version
+i = 2
+while i <=20:
+    print(i)
+    i += 2
+
+
+
+
+    #Print your name 5 times using while
+i = 1
+while i <=5:
+    print("chandan ")
+    i += 1
+    
