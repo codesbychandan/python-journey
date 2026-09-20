@@ -175,3 +175,23 @@ if age >= 18:
 print("Adult")
 
 Usually, 4 spaces are used for indentation.
+
+
+
+
+
+# 🔄 Python Loops
+
+Loops are used to execute a block of code repeatedly.
+
+---
+
+## 1. for Loop
+
+A `for` loop is used to repeat a block of code for each item in a sequence.
+
+Example:
+
+```python
+for i in range(5):
+    print(i)
