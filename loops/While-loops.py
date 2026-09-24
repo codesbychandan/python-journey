@@ -219,3 +219,82 @@ i = 1
 while i <= 10:
     print(num, "x", i, "=", num * i)
     i += 1
+
+
+
+
+
+# ==========================================
+# Q11. Write a program to find the smallest digit
+# in a given number using a while loop.
+#
+# Example:
+# Input: 58329
+# Output: 2
+# ==========================================
+
+num = int(input("Enter a number: "))
+
+smallest = 9
+
+while num > 0:
+    digit = num % 10
+
+    if digit < smallest:
+        smallest = digit
+
+    num = num // 10
+
+print("Smallest digit:", smallest)
+
+
+# ==========================================
+# Q12. Write a program to calculate the power
+# of a number using a while loop.
+#
+# Example:
+# Input: base = 2, exponent = 5
+# Output: 32
+#
+# Do not use the ** operator.
+# ==========================================
+
+base = int(input("Enter base: "))
+exponent = int(input("Enter exponent: "))
+
+result = 1
+i = 1
+
+while i <= exponent:
+    result *= base
+    i += 1
+
+print("Result:", result)
+
+
+# ==========================================
+# Q13. Write a program to check whether a number
+# is an Armstrong number using a while loop.
+#
+# For a 3-digit number:
+# 153 = 1³ + 5³ + 3³
+#
+# Example:
+# Input: 153
+# Output: Armstrong number
+# ==========================================
+
+num = int(input("Enter a number: "))
+
+original = num
+sum_of_cubes = 0
+
+while num > 0:
+    digit = num % 10
+    sum_of_cubes += digit ** 3
+    num = num // 10
+
+if sum_of_cubes == original:
+    print("Armstrong number")
+else:
+    print("Not an Armstrong number")
