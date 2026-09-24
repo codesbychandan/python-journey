@@ -298,3 +298,8 @@ if sum_of_cubes == original:
     print("Armstrong number")
 else:
     print("Not an Armstrong number")
+
+
+
+
+#----------------------------------------
