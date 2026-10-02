@@ -238,4 +238,80 @@ i = 1
 while i <=5:
     print("chandan ")
     i += 1
+
+
+
+
+
+# ==========================================
+# Q6. Find the largest difference between
+# any two elements in a list.
+#
+# Example:
+# Input: [10, 3, 25, 7, 18]
+# Output: 22
+# ==========================================
+
+numbers = [10, 3, 25, 7, 18]
+
+largest = numbers[0]
+smallest = numbers[0]
+
+for num in numbers:
+    if num > largest:
+        largest = num
+
+    if num < smallest:
+        smallest = num
+
+difference = largest - smallest
+
+print("Largest difference:", difference)
+
+
+# ==========================================
+# Q7. Count the number of prime numbers
+# between two given numbers.
+#
+# Example:
+# Input: 1 to 20
+# Output: 8
+# ==========================================
+
+start = 1
+end = 20
+count = 0
+
+for num in range(start, end + 1):
+    if num < 2:
+        continue
+
+    is_prime = True
+
+    for i in range(2, num):
+        if num % i == 0:
+            is_prime = False
+            break
+
+    if is_prime:
+        count += 1
+
+print("Number of prime numbers:", count)
+
+
+# ==========================================
+# Q8. Find the common elements between
+# two lists using for loops.
+#
+# Example:
+# List 1: [1, 2, 3, 4, 5]
+# List 2: [3, 5, 7, 9]
+#
+# Output:
+# 3
+# 5
+# ==========================================
+
+list1 = [1, 2, 3, 4, 5]
+list2 = [3
     
